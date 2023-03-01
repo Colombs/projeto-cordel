@@ -1,0 +1,108 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    height: 30vw;
+    max-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header > h1 {
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+header > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.preto {
+    width: 100%;
+    margin: 12vw 0;
+}
+
+.preto > p {
+    color: black;
+    margin-top: 8vw;
+}
+
+.paragrafo {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    margin-left: 40px;
+    line-height: 2em;
+}
+
+#joaninha {
+    background-image: url('imagens/background001.jpg');
+}
+
+#livro {
+    background-image: url('imagens/background002.jpg');
+}
+
+.branco {
+    display: flex;
+    align-items: center;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 69vw;
+    margin: 18vw 0;
+}
+
+.branco > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+}
+
+footer > p {
+    color: white;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
